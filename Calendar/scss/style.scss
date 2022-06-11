@@ -1,0 +1,64 @@
+@import "reset.scss";
+.wrapper {
+    width: max;
+}
+.container {
+    width:257px;
+    height: 200px;
+    margin: 0 auto;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+.header {
+padding: 10px 0;
+		&__row {
+            display: flex;
+            justify-content:space-between;
+		}
+
+		&__date {
+		}
+
+		&__buttons {
+		}
+}
+
+.days {
+background-color: rgb(168, 167, 167);
+border-top: 0.5px solid black;
+border-bottom: 0.5px solid black;
+    &__table-rowdays {
+        margin: 0 auto;
+        display: flex;
+justify-content: space-between;
+padding-left: 6px;
+padding-right: 10px;
+// padding: 0 9px;
+    }
+    .num{
+    //     margin-right: 4px;
+    // padding-left: 2px;
+    }
+    
+}
+.numbers {
+height: 130px;
+    &__days {
+        // height: 130px;
+    }
+    &__row {
+        // margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 5px;
+        justify-content: space-a;
+    }
+}
+.day {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    margin: 5px 8px;
+}
+
+

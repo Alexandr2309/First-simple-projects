@@ -1,0 +1,61 @@
+/* .table {
+	width: 100%;
+	margin-bottom: 20px;
+	border: 1px solid #dddddd;
+	border-collapse: collapse; 
+}
+.table th {
+	font-weight: bold;
+	padding: 5px;
+	background: #efefef;
+	border: 1px solid #dddddd;
+}
+.table td {
+	border: 1px solid #dddddd;
+	padding: 5px;
+} */
+#all {
+	
+	display: block;
+	margin-top: 40px;
+	margin-left: auto;
+    margin-right: auto;
+    width: 175px;
+	border: 1px solid black;
+	padding: 0 0 3px;
+}
+.button input{
+	margin: 0 0 2px 6px;
+	width: 33px;
+	height: 26px;
+	display: inline;
+	text-align: center;
+	background: none;
+	border: 1px solid black;
+}
+.button input:hover{
+	background: black;
+	color: white;
+}
+#clear{
+	margin: 3px 0 3px 3px;
+	width: 25px;
+	height: 30px;
+	background: none;
+	border: 1px solid black;
+}
+.head{
+	display: block;
+	width: 161px;
+	height: auto;
+	border: 1px solid black;
+	margin:5px;
+}
+#res {
+	position: absolute;
+	margin: 10px 0 0 5px;
+	display: inline-block;
+	width:115px;
+	height: 27px;
+	text-align: right;
+}
